@@ -1,6 +1,6 @@
 # flutter_highlight2
 
-![example_screenshot](screenshot.png)
+![example_screenshot](https://raw.githubusercontent.com/ayham-1/highlight.dart/master/flutter_highlight2/screenshot.png)
 
 This is not necessarily the output of the below example, but has been acheived
 with the basis of that example.
