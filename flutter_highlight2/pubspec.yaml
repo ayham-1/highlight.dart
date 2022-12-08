@@ -1,0 +1,13 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  highlight: ^0.7.0
+description: Fork of flugtter_highlight2 with line numbers.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+homepage: https://github.com/ayham-1/highlight.dart/tree/master/flutter_highlight
+name: flutter_highlight2
+version: 0.8.0
