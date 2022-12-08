@@ -1,8 +1,10 @@
-# flutter_highlight
+# flutter_highlight2
 
-[![pub](https://img.shields.io/pub/v/flutter_highlight)](https://pub.dev/packages/flutter_highlight)
+![example_screenshot](screenshot.png)
+This is not necessarily the output of the below example, but has been acheived
+with the basis of that example.
 
-Syntax highlighter for Flutter. https://git-touch.github.io/highlight/
+Fork of flutter_higlight adding line numberings.
 
 ## Usage
 
@@ -39,6 +41,16 @@ class MyWidget extends StatelessWidget {
         fontFamily: 'My awesome monospace font',
         fontSize: 16,
       ),
+	  
+	  // Enable Line numbers
+	  lineNumbers: true,
+	  
+	  // Line numbers container border
+	  lineNumbersBorder: Border.all(color: Colors.grey, width: 0),
+	  
+	  // Line numbers container radius
+	  lineNumbersRadius: const BorderRadius.only(
+      bottomLeft: Radius.circular(15), topLeft: Radius.circular(15)),
     );
   }
 }
